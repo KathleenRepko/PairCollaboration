@@ -12,6 +12,14 @@ namespace PairCollaboration
         {
             Console.WriteLine("Kevin and Kathleen are working together as collaborators.");
 
+            Console.WriteLine("Please enter a number between 1 and 10.");
+            int userNumber = int.Parse(Console.ReadLine());
+            if (userNumber <= 5)
+                Console.WriteLine("That's a small number.");
+            else
+                Console.WriteLine("That's a large number.");
+
+
             for (int i = 1; i < 15; i++)
             {
                 if (i % 4 == 0)
