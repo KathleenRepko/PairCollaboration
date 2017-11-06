@@ -12,8 +12,19 @@ namespace PairCollaboration
         {
             Console.WriteLine("Kevin and Kathleen are working together as collaborators.");
 
-            for ( int i = 1; i < 15; i++)
-            Console.WriteLine(i);
+            for (int i = 1; i < 15; i++)
+            {
+                if (i % 4 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+
+                else
+                {
+                    Console.WriteLine("I am not evenly divisible by 4.");
+                }
+
+            }
         }
     }
 }
