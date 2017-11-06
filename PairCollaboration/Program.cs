@@ -10,11 +10,11 @@ namespace PairCollaboration
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Kevin and Kathleen are working together as collaborators.");
+            Console.WriteLine("Kevin and Kathleen have succeeded in merging the branches.");
 
-            Console.WriteLine("Please enter a number between 1 and 10.");
+            Console.WriteLine("Please enter a number between 1 and 100.");
             int userNumber = int.Parse(Console.ReadLine());
-            if (userNumber <= 5)
+            if (userNumber <= 50)
                 Console.WriteLine("That's a small number.");
             else
                 Console.WriteLine("That's a large number.");
