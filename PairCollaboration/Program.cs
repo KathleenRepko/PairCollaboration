@@ -19,6 +19,8 @@ namespace PairCollaboration
             else
                 Console.WriteLine("That's a large number.");
 
+            Console.WriteLine("This is Kevin in Kathleen's turf. Watch me now!");
+
 
             for (int i = 1; i < 15; i++)
             {
