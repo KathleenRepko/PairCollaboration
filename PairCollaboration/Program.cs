@@ -10,6 +10,10 @@ namespace PairCollaboration
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Kevin and Kathleen are working together as collaborators.");
+
+            for ( int i = 1; i < 15; i++)
+            Console.WriteLine(i);
         }
     }
 }
