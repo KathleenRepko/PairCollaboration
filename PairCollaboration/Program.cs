@@ -34,17 +34,17 @@ namespace PairCollaboration
 
             }
 
-
-
-            //Broken FizzBuzz
+            //A pretty DRY FizzBuzz
             for (int i = 1; i < 101; i++)
             {
+                string output = "";
                 if (i % 3 == 0)
-                    Console.Write("Fizz");
+                    output += "Fizz";
                 if (i % 5 == 0)
-                    Console.Write("Buzz");
-                else
-                    Console.Write(i);
+                   output+="Buzz";
+                if (i % 3 !=0 && i % 5 != 0)
+                    output += i;
+                Console.WriteLine(output);
             }
         }
     }
